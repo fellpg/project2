@@ -42,6 +42,9 @@
 			this.ctx.canvas.onclick = function(){
 				that.speed = -6;
 			}
+			if(this.y>400){
+				that.speed = -6;
+			}
 		}
 	});
 	var bird = null;
